@@ -1,0 +1,19 @@
+{
+ "M": 100000000.0,
+ "N": 10000,
+ "steps": 5000,
+ "nens": 40,
+ "z_list": "5,11,31,100",
+ "pad": 2000,
+ "detrend": "pnt",
+ "alpha_rescale": true,
+ "s7g_shuffle_control": true,
+ "workers": 8,
+ "maxrun": 1000000000,
+ "outdir": "paper3_out_rescaled",
+ "certificate_range": 10000000.0,
+ "certificate_only": false,
+ "summarize_only": false,
+ "smoke": false,
+ "alpha_eff": 0.08064409352864174
+}

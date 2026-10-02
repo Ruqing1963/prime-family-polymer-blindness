@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*Notes.bib
+
+ai_studio_code*.txt

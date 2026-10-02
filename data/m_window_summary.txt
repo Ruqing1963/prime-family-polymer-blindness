@@ -1,0 +1,15 @@
+Drift-free window [1e8, 1e8+1e4), Langevin PDTP, alpha = 0.0806, 5000 steps
+
+          arm   n                rho  Welch p vs True
+         True  40 +0.2429 +- 0.0075              nan
+           S1  40 +0.2108 +- 0.0076          0.00376
+           S7  40 +0.2196 +- 0.0080           0.0376
+       S7G_z5  40 +0.2450 +- 0.0097            0.867
+    S7G_S1_z5  40 +0.2398 +- 0.0087            0.789
+  paired ordering effect inside S7-G(z=5): +0.0052 (p = 0.68)
+
+  fixed-S1 class: K = 10 x m = 5
+    mu = +0.2241  sigma_seq = 0.0143  sigma_th = 0.0477  ANOVA F = 1.45 (p = 0.200)
+    sequence means: +0.179 +0.206 +0.221 +0.224 +0.223 +0.260 +0.261 +0.212 +0.248 +0.208
+    True - mu = +0.0188   Z_seq = +1.04  (t, 9 dof, p = 0.326)   sequence means above True: 3/10
+    naive Welch True vs fresh S1: p = 0.00376
